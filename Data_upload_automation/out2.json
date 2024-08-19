@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "question_text": "Which of the following is an example of compounded assignment statement?",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "a=5",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "This is a simple assignment statement, not a compounded one."
+                },
+                {
+                    "answer_text": "a+=5",
+                    "answer_label": "b",
+                    "is_correct": "true",
+                    "answer_description": "This statement combines the assignment operator (=) with the addition operator (+), making it a compounded assignment statement."
+                },
+                {
+                    "answer_text": "a=b=c",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "This is multiple assignments in a single line, not a compounded assignment statement."
+                },
+                {
+                    "answer_text": "a=b",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "This is a simple assignment statement."
+                }
+            ]
+        },
+        {
+            "question_text": "The operator && is an example for ___ operator.",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "Assignment",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "Assignment operators are used for assigning values to variables."
+                },
+                {
+                    "answer_text": "Increment",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Increment operators are used to increase the value of a variable by 1."
+                },
+                {
+                    "answer_text": "Logical",
+                    "answer_label": "c",
+                    "is_correct": "true",
+                    "answer_description": "The && operator represents logical AND, used to combine boolean expressions."
+                },
+                {
+                    "answer_text": "Rational",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "There is no 'Rational' operator in programming. It's likely a typo."
+                }
+            ]
+        },
+        {
+            "question_text": "The operator & is used for",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "Bitwise AND",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "The & operator performs bitwise AND operation, comparing each bit of the operands."
+                },
+                {
+                    "answer_text": "Bitwise OR",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "The bitwise OR operator is represented by the | symbol."
+                },
+                {
+                    "answer_text": "Logical AND",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "The logical AND operator is represented by the && symbol."
+                },
+                {
+                    "answer_text": "Logical OR",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "The logical OR operator is represented by the || symbol."
+                }
+            ]
+        },
+        {
+            "question_text": "The operator / can be applied to",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "integer values",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "The / operator can be used for integer division, resulting in an integer quotient."
+                },
+                {
+                    "answer_text": "float values",
+                    "answer_label": "b",
+                    "is_correct": "true",
+                    "answer_description": "The / operator can be used for float division, resulting in a float value."
+                },
+                {
+                    "answer_text": "double values",
+                    "answer_label": "c",
+                    "is_correct": "true",
+                    "answer_description": "The / operator can be used for double division, resulting in a double value."
+                },
+                {
+                    "answer_text": "All of these",
+                    "answer_label": "d",
+                    "is_correct": "true",
+                    "answer_description": "The / operator is applicable to all the mentioned data types: integer, float, and double."
+                }
+            ]
+        },
+        {
+            "question_text": "The equality operator is represented by",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": ":=",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "This symbol is often used for assignment in some programming languages, but not for equality."
+                },
+                {
+                    "answer_text": ".EQ.",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "This is a specific syntax for equality used in some older programming languages."
+                },
+                {
+                    "answer_text": "=",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "This symbol is generally used for assignment, not equality comparison."
+                },
+                {
+                    "answer_text": "==",
+                    "answer_label": "d",
+                    "is_correct": "true",
+                    "answer_description": "The == operator is the standard symbol for equality comparison in many programming languages."
+                }
+            ]
+        },
+        {
+            "question_text": "Operators have hierarchy. It is useful to know which operator",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "is most important",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "While hierarchy matters, it's not about 'importance' but the order of evaluation."
+                },
+                {
+                    "answer_text": "is used first",
+                    "answer_label": "b",
+                    "is_correct": "true",
+                    "answer_description": "Operator hierarchy determines the order in which operators are evaluated in an expression."
+                },
+                {
+                    "answer_text": "is faster",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Hierarchy doesn't directly influence the speed of an operator."
+                },
+                {
+                    "answer_text": "operates on large numbers",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Operator hierarchy is not related to the size of the numbers they operate on."
+                }
+            ]
+        },
+        {
+            "question_text": "The bitwise AND operator is used for",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "Masking",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "Bitwise AND is often used for masking, isolating specific bits within a value."
+                },
+                {
+                    "answer_text": "Comparison",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Comparison is typically done using relational operators like ==, !=, >, <."
+                },
+                {
+                    "answer_text": "Division",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Division is performed using the / operator."
+                },
+                {
+                    "answer_text": "Shifting bits",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Bit shifting is done using the << and >> operators."
+                }
+            ]
+        },
+        {
+            "question_text": "The bitwise OR operator is used to",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "set the desired bits to 1",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "Bitwise OR sets a bit to 1 if either operand has a 1 in that position."
+                },
+                {
+                    "answer_text": "set the desired bits to 0",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Bitwise AND is used to set bits to 0, not OR."
+                },
+                {
+                    "answer_text": "divide numbers",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Division is done using the / operator."
+                },
+                {
+                    "answer_text": "multiply numbers",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Multiplication is done using the * operator."
+                }
+            ]
+        },
+        {
+            "question_text": "Which of the following operator has the highest precedence?",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "*",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "Multiplication has higher precedence than addition, but not the highest."
+                },
+                {
+                    "answer_text": "==",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Equality comparison has lower precedence than arithmetic operators."
+                },
+                {
+                    "answer_text": "=>",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "This symbol represents the lambda expression in some languages and doesn't have high precedence."
+                },
+                {
+                    "answer_text": "+",
+                    "answer_label": "d",
+                    "is_correct": "true",
+                    "answer_description": "Arithmetic operators like + have higher precedence than relational or logical operators."
+                }
+            ]
+        },
+        {
+            "question_text": "The associativity of ! operator is",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "Right to Left",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "The ! operator, representing logical NOT, has right-to-left associativity. It evaluates the rightmost operand first."
+                },
+                {
+                    "answer_text": "Left to Right",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Left-to-right associativity is not the case for the ! operator."
+                },
+                {
+                    "answer_text": "(a) for Arithmetic and (b) for Relational",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "The ! operator is not related to arithmetic or relational operators."
+                },
+                {
+                    "answer_text": "(a) for Relational and (b) for Arithmetic",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "The ! operator is not related to arithmetic or relational operators."
+                }
+            ]
+        },
+        {
+            "question_text": "Which operator has the lowest priority?",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "++",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "Increment operators have higher priority than logical operators."
+                },
+                {
+                    "answer_text": "%",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Modulo operator has higher priority than logical operators."
+                },
+                {
+                    "answer_text": "+",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Addition operator has higher priority than logical operators."
+                },
+                {
+                    "answer_text": "||",
+                    "answer_label": "d",
+                    "is_correct": "true",
+                    "answer_description": "Logical OR operator (||) has the lowest priority among common operators."
+                }
+            ]
+        },
+        {
+            "question_text": "Which operator has the highest priority?",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "++",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "Increment operators (both ++ and --) generally have the highest precedence."
+                },
+                {
+                    "answer_text": "%",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Modulo operator has lower priority than increment operators."
+                },
+                {
+                    "answer_text": "+",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Addition operator has lower priority than increment operators."
+                },
+                {
+                    "answer_text": "||",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Logical OR operator has the lowest priority."
+                }
+            ]
+        },
+        {
+            "question_text": "Operators have precedence. Precedence determines which operator is",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "faster",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "Precedence is about the order of evaluation, not the speed of an operator."
+                },
+                {
+                    "answer_text": "takes less memory",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Memory usage is not directly related to operator precedence."
+                },
+                {
+                    "answer_text": "evaluated first",
+                    "answer_label": "c",
+                    "is_correct": "true",
+                    "answer_description": "Operator precedence determines the order in which operators are evaluated within an expression."
+                },
+                {
+                    "answer_text": "takes no arguments",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Precedence doesn't determine the number of arguments an operator takes."
+                }
+            ]
+        },
+        {
+            "question_text": "Integer Division results in",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "Rounding the fractional part",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "Integer division doesn't round the fractional part. It truncates it."
+                },
+                {
+                    "answer_text": "Truncating the fractional part",
+                    "answer_label": "b",
+                    "is_correct": "true",
+                    "answer_description": "Integer division discards the fractional part, leaving only the whole number."
+                },
+                {
+                    "answer_text": "Floating value",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Integer division doesn't produce a floating-point value."
+                },
+                {
+                    "answer_text": "An Error is generated",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Integer division doesn't generate an error."
+                }
+            ]
+        },
+        {
+            "question_text": "Which of the following is a ternary operator?",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "?:",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "The ?: operator is a ternary operator, taking three operands."
+                },
+                {
+                    "answer_text": "*",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "The * operator is a binary operator."
+                },
+                {
+                    "answer_text": "sizeof",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "The sizeof operator is unary."
+                },
+                {
+                    "answer_text": "^",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "The ^ operator is a binary operator."
+                }
+            ]
+        },
+        {
+            "question_text": "What will be the output of the expression 11 ^ 5?",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "5",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "The ^ operator performs bitwise XOR. The result is not 5."
+                },
+                {
+                    "answer_text": "6",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "The ^ operator performs bitwise XOR. The result is not 6."
+                },
+                {
+                    "answer_text": "11",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "The ^ operator performs bitwise XOR. The result is not 11."
+                },
+                {
+                    "answer_text": "None of these",
+                    "answer_label": "d",
+                    "is_correct": "true",
+                    "answer_description": "The ^ operator performs bitwise XOR. The result of 11 ^ 5 is 14."
+                }
+            ]
+        },
+        {
+            "question_text": "The type cast operator is",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "(type)",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "The (type) syntax is commonly used for explicit type casting."
+                },
+                {
+                    "answer_text": "cast()",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "This is a function-like syntax used in some languages, but not the standard type cast operator."
+                },
+                {
+                    "answer_text": "(;) ;",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "This represents an empty statement, not type casting."
+                },
+                {
+                    "answer_text": "// \" \"",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "This is a comment syntax, not type casting."
+                }
+            ]
+        },
+        {
+            "question_text": "Explicit type conversion is known as",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "Casting",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "Explicit type conversion is commonly referred to as casting."
+                },
+                {
+                    "answer_text": "Conversion",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "Conversion is a broader term that includes implicit and explicit type conversions."
+                },
+                {
+                    "answer_text": "Disjunction",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "Disjunction refers to logical OR operation."
+                },
+                {
+                    "answer_text": "Separation",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "Separation doesn't relate to type conversion."
+                }
+            ]
+        },
+        {
+            "question_text": "The operator + in a+=4 means",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "a=a+4",
+                    "answer_label": "a",
+                    "is_correct": "true",
+                    "answer_description": "The += operator is a compounded assignment operator. It combines addition and assignment."
+                },
+                {
+                    "answer_text": "a+4=a",
+                    "answer_label": "b",
+                    "is_correct": "false",
+                    "answer_description": "This is not a valid syntax in most programming languages."
+                },
+                {
+                    "answer_text": "a=4",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "This would simply assign 4 to a, not add it to the existing value."
+                },
+                {
+                    "answer_text": "a=4+4",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "This assigns the sum of 4+4 to a, not the sum of a+4."
+                }
+            ]
+        },
+        {
+            "question_text": "p++ executes faster than p+1 because",
+            "level": "Junior",
+            "answers": [
+                {
+                    "answer_text": "p uses registers",
+                    "answer_label": "a",
+                    "is_correct": "false",
+                    "answer_description": "Register usage can affect performance, but it's not the primary reason why p++ is faster."
+                },
+                {
+                    "answer_text": "p++ is a single instruction",
+                    "answer_label": "b",
+                    "is_correct": "true",
+                    "answer_description": "In many processors, the p++ increment operation can be implemented as a single assembly instruction, making it faster than a separate addition and assignment."
+                },
+                {
+                    "answer_text": "++ is faster than +",
+                    "answer_label": "c",
+                    "is_correct": "false",
+                    "answer_description": "The + operator is not inherently slower than ++."
+                },
+                {
+                    "answer_text": "None of these",
+                    "answer_label": "d",
+                    "is_correct": "false",
+                    "answer_description": "The primary reason is because p++ is typically implemented as a single instruction."
+                }
+            ]
+        }
+    ]
+}
